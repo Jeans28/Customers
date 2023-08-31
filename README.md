@@ -13,24 +13,27 @@ Esta API proporciona endpoints para gestionar clientes y obtener indicadores de 
 
 1. Clona este repositorio:
 
-bash
-git clone https://github.com/tuusuario/ms-customers.git
+      bash
+      git clone https://github.com/jeans28/ms-customers.git
 
-2.Configura la base de datos MySQL en el archivo application.properties:
+2. Configura la base de datos MySQL en el archivo application.properties:
 
-  spring.datasource.url=jdbc:mysql://localhost:3306/intercop
-  spring.datasource.username=usuario
-  spring.datasource.password=contraseña
-
-Nota: Puedes cambiar de motor de base de datos agregando el driver en la dependencia del maven y cambiar los properties de conexion.
-
+      spring.datasource.url=jdbc:mysql://localhost:3306/intercop
+      
+      spring.datasource.username=usuario
+      
+      spring.datasource.password=contraseña
+      
+      nota: Puedes cambiar de motor de base de datos agregando el driver en la dependencia del maven y cambiar los properties de conexion
+  
 3. Compila el proyecto con Maven:
-  mvn clean package
-
+   
+        mvn clean package
+  
 4. Ejecuta la aplicación:
-  java -jar target/ms-customers.jar
-
-La API estará disponible en http://localhost:8090/api/customer.
+      java -jar target/ms-customers.jar
+    
+      La API estará disponible en http://localhost:8090/api/customer.
 
 Endpoints
 Registrar Cliente Nuevo
