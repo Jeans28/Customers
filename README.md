@@ -14,7 +14,7 @@ Esta API proporciona endpoints para gestionar clientes y obtener indicadores de 
 1. Clona este repositorio:
 
       bash
-      git clone https://github.com/jeans28/ms-customers.git
+      git clone [https://github.com/jeans28/ms-customers.git](https://github.com/Jeans28/Customers.git)
 
 2. Configura la base de datos MySQL en el archivo application.properties:
 
