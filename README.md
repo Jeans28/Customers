@@ -27,6 +27,7 @@ Esta API proporciona endpoints para gestionar clientes y obtener indicadores de 
       nota: Puedes cambiar de motor de base de datos agregando el driver en la dependencia del maven y cambiar los properties de conexion
 
 3. Correr el script de creacon de Bse de datos y tabla customer:
+   
        script: intercop.sql
 4. Compila el proyecto con Maven:
    
