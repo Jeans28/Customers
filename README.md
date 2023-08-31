@@ -17,11 +17,11 @@ Esta API proporciona endpoints para gestionar clientes y obtener indicadores de 
       git clone [https://github.com/jeans28/ms-customers.git](https://github.com/Jeans28/Customers.git)
 
 2. Configura la base de datos MySQL en el archivo application.properties:
-
+      
       spring.datasource.url=jdbc:mysql://localhost:3306/intercop
-      
+                  
       spring.datasource.username=usuario
-      
+                  
       spring.datasource.password=contraseña
       
       nota: Puedes cambiar de motor de base de datos agregando el driver en la dependencia del maven y cambiar los properties de conexion
@@ -39,24 +39,31 @@ Esta API proporciona endpoints para gestionar clientes y obtener indicadores de 
       La API estará disponible en http://localhost:8090/api/customer.
 
 Endpoints
-Registrar Cliente Nuevo
-Endpoint: POST /api/customer
 
-Permite registrar un nuevo cliente.
+-Registrar Cliente Nuevo
 
-Consultar Clientes
-Endpoint: GET /api/customer
+      Endpoint: POST /api/customer
+      
+      Permite registrar un nuevo cliente.
 
-Permite consultar clientes por DNI, email o sin filtros.
+-Consultar Clientes
 
-Consultar Indicadores de Natalidad
-Endpoint: GET /api/customer/indicadores
+      Endpoint: GET /api/customer
+      
+      Permite consultar clientes por DNI, email o sin filtros.
 
-Permite consultar indicadores de natalidad, nacidos por mes, entre otros.
+-Consultar Indicadores de Natalidad
+
+      Endpoint: GET /api/customer/indicadores
+      
+      Permite consultar indicadores de natalidad, nacidos por mes, entre otros.
 
 Documentación
-La documentación completa de la API se puede encontrar en http://localhost:8090/swagger-ui.html.
+      
+      La documentación completa de la API se puede encontrar en http://localhost:8090/swagger-ui.html.
 
 Autor
+
 Jeanspierre Calzado
+
 Correo electrónico: jeansc42@gmail.com
